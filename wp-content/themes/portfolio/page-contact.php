@@ -6,13 +6,11 @@
     <div class="container">
       <div class="main-content" id="contact">
         <div class="col-6">
-            Whether it’s promoting your online business, expanding your user base, or improving your existing website, I will provide the most optimal design solutions to cater to your needs. <strong>Let’s talk!</strong><br/>
-            <br/>
-            <strong><a href="tel:5628104778">(562) 810-4778</a> | <a href="mailto:pmartindesigns@gmail.com">pmartindesigns@gmail.com</a></strong>
-            <div class="contact-form">
+            <?php echo the_content(); ?>
+            <!-- <div class="contact-form">
               <h2 style="font-weight:300;">Send me a Message</h2>
-              <?php echo the_content(); ?>
-            </div>
+              <?php //echo the_content(); ?>
+            </div> -->
         </div>
       </div>
     </div>

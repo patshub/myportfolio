@@ -1,5 +1,25 @@
 $( document ).ready(function() {
 
+
+
+  $('.case-study-btn').click(function(){
+    // Case Study Popup
+    $('#case-study .container').css('max-height',$(window).height() - 200);
+    $('html, body').css({
+        overflow: 'hidden',
+        height: '100%'
+    });
+    $('#case-study').fadeIn();
+  });
+
+  $('#case-study .close').click(function(){
+    $('#case-study').fadeOut();
+    $('html, body').css({
+        overflow: 'auto',
+        height: 'auto'
+    });
+  });
+
   // Add download attribute to resume link
   $("#menu-item-71 a").attr('download', 'resume');
 
@@ -17,4 +37,8 @@ $( document ).ready(function() {
     $('.tab-item').removeClass('active');
     $('.'+$(this).attr('data-id')).addClass('active');
   });
+});
+
+$( window ).resize(function() {
+  $('#case-study .container').css('max-height',$(window).height() - 200);
 });
