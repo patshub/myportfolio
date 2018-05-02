@@ -7,8 +7,8 @@
         <div id="case-study">
           <div class="container">
             <div class="case-study-content">
-              <span class="close"></span>
               <?php the_content(); ?>
+              <span class="close"></span>
             </div>
           </div>
         </div>
