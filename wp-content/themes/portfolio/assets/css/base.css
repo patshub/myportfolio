@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'love_story';
+    src: url('../fonts/love-story-rough.ttf');
+}
+html { overflow-y: scroll; }
+body{
+    font-family: 'Lato', 'Open Sans';
+    font-size: 16px;
+    line-height: 150%;
+    color: #333;
+}
+.clear{clear: both;}
+
+/************** TYPOGRAPHY **************/
+h1,h2,h3,h4{
+  line-height: 130%;
+}
+h1{font-size: 3em;
+  text-align: center;
+}
+h2{font-size: 1.5em; margin: 1.75% 0 .5% 0;}
+h3{font-size: 1.25em; margin: 1.75% 0 .5% 0;}
+h4{font-size: 1.1em;}
+h5{font-size: 1em;}
+p, li{
+  font-size: 1em;
+  margin: .75em 0;
+}
+p.meta{ font-size: .85em; opacity: .85; }
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+a:active,
+a::selection,
+a:visited{
+  color: #333;
+}
+a.btn:active,
+a.btn::selection,
+a.btn:visited{
+  color: white;
+}
+strong,b{ font-weight: 700; }
+em{ font-style: italic; }
+.bg-white{background-color: white;}
+.bg-black{background-color: black;}
+.bg-green{background-color: green;}
+.txt-white{color: white;}
+.txt-black{color: black;}
+
+img{
+  width: auto;
+  max-width: 100%;
+}
+
+.align-center{
+    text-align: center;
+}
+
+section{
+    width: 100%;
+    margin: auto auto 30px auto;
+    display: block;
+    clear: both;
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+}
+
+[class*='col-']{
+    width: 100%;
+    display: inline-block;
+    min-height: 1px;
+    margin:-2px;
+
+    vertical-align: top;
+}
+.col {
+    padding: 1.15em;
+    box-sizing: border-box;
+}
+
+.col-1 {width: 8.33333%;}
+.col-2 {width: 16.66667%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33333%;}
+.col-5 {width: 41.66667%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33333%;}
+.col-8 {width: 66.66667%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33333%;}
+.col-11 {width: 91.66667%;}
+.col-12 {width: 100%;}
+
+/************** NAVIGATION **************/
+ul.menu li{
+  display: inline-block;
+  margin: 0 20px 0 0;
+  position: relative;
+}
+ul.menu li.expandable:after{
+  font-family: FontAwesome;
+  content:"\f107";
+
+  display: inline-block;
+}
+ul.menu li.expandable.open:after{
+  content:"\f106";
+}
+ul.menu li:before{ display: none; }
+
+ul.menu li ul{
+  display: none;
+  width: 150px;
+  position: absolute;
+  top: 20px;
+  background: white;
+}
+ul.menu li ul li{
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+ul.menu li ul li a{
+  font-size: .85em;
+  padding: 10px;
+  box-sizing: border-box;
+  display: block;
+  border-bottom: 1px solid #333;
+}
+
+ul.breadcrumbs{
+  margin: 5px 0;
+}
+ul.breadcrumbs li{
+  display: inline-block;
+  margin:0;
+}
+ul.breadcrumbs li a{
+  color: #333;
+}
+ul.breadcrumbs li:after{
+  font-family: FontAwesome;
+  content:"\f105";
+
+  display: inline-block;
+  margin: 0 10px;
+}
+ul.breadcrumbs li:last-child{
+  font-weight: 700;
+}
+ul.breadcrumbs li:last-child:after{ display: none; }
+ul.breadcrumbs li:before{ display: none; }
+
+
+
+
+
+/************** BACKGROUND IMAGE **************/
+.bg-img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+
+/************** BUTTONS **************/
+.btn,input[type="submit"],button{
+    cursor: pointer;
+    width: auto;
+    white-space: nowrap;
+    padding: 7px 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    background: #165d83;
+    border: 1px solid white;
+    color: white;
+    display: table;
+    transition-duration: 0.25s;
+
+    line-height: 120%;
+}
+.btn.mid{
+  margin: auto;
+}
+
+/************** LISTS **************/
+ul, ol{
+  margin: 1.5% 0;
+  display: block;
+}
+li{ display: table-row; }
+li:before{
+  font-family: FontAwesome;
+  content:"\f105";
+
+  display: table-cell;
+  width: 1em;
+}
+ol{ padding:0 0 0 15px; }
+ol li{
+  display: list-item;
+}
+ol li:before{ display: none; }
+
+
+/************** FORMS **************/
+input, textarea, select {
+  width: 100%;
+  font-size: 1em;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid lightgrey;
+  border-radius: 7.5px;
+  display: block;
+
+  margin:1.5% 0;
+}
+input:last-child, textarea:last-child, select:last-child{
+  margin: 1.5% 0 0 0;
+}
+input[type="radio"],input[type="checkbox"]{
+  display: inline;
+  width: auto;
+  margin:1% 0;
+}
+textarea{
+  min-height: 150px;
+}
+select {
+  -webkit-appearance: none;
+  background-color: transparent!important;
+  vertical-align: middle;
+  background-image: linear-gradient(45deg,transparent 50%,gray 50%),linear-gradient(135deg,gray 50%,transparent 50%);
+  background-position: calc(100% - 20px) calc(1em + 2px),calc(100% - 15px) calc(1em + 2px),calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px,5px 5px,1px 1.5em;
+  background-repeat: no-repeat;
+  -moz-appearance: none;
+  text-indent: 0.01px;
+}
+label,legend{
+  font-weight: 600;
+  display: block;
+}
+label{
+  margin:3.5% 0 1.5% 0;
+}
+label:first-of-type{
+  margin: 1.5% 0;
+}
+label.required:after{
+  content: "*";
+  color: red;
+}
+legend{
+  text-align: center;
+  padding: 0 20px;
+}
+fieldset{
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+/************** TABLES **************/
+table{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: auto;
+
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 1.5% 0;
+}
+th,td{
+  padding: 15px;
+  border: 1px solid grey;
+}
+
+th{
+  background: #333;
+  color: white;
+}

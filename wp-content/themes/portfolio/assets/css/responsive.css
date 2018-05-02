@@ -1,0 +1,100 @@
+@media only screen and (max-width: 1200px) {
+  .container{ width: 90%; }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .project-thumbnail{
+    height: 175px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    font-size: 14px;
+  }
+
+  .screen-container{
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  [class*='col-']{ width: 100%!important; }
+  .col{ padding: 1.15em 0; }
+  #headline .headline-info{
+    margin:0 0 30px 0;
+  }
+  #headline .headline-img{
+    margin: auto;
+    float: none;
+  }
+  #headline h2{
+    text-align: center;
+  }
+
+  #headline .headline-info p{
+    text-align: center;
+  }
+  #headline .headline-info a.btn{
+    margin: auto;
+  }
+
+  h1.page-title{
+    font-size: 3.5em;
+  }
+
+  .project-thumbnail{
+    height: 250px;
+  }
+
+  #headline .headline-img{
+    width: 150px;
+    height: 150px;
+  }
+
+  #headline h2{
+    font-size: 1.5em;
+    line-height: 160%;
+  }
+
+  .bx-wrapper{
+    margin-bottom: 0!important;
+  }
+  .bx-wrapper .bx-prev{
+    left: 5px;
+  }
+  .bx-wrapper .bx-next{
+    right: 5px;
+  }
+  #project-screens-container{
+    margin-bottom: 0;
+  }
+
+  h1.page-title{
+    font-size: 2.5em;
+  }
+  #contact .col-6:first-child .col{
+    padding: 0;
+  }
+  #contact .col-6:nth-child(2) .col .contact-item{
+    display: none;
+  }
+
+  #process h2.header-black{
+    float: none;
+    margin: -25px auto 0 auto;
+  }
+
+  .project-item:nth-child(3n-1) .col,
+  .project-item:nth-child(3n-2) .col,
+  .project-item:nth-child(3n) .col{
+    padding:0;
+  }
+
+  .project-item{
+    margin-bottom: 30px;
+  }
+
+}
