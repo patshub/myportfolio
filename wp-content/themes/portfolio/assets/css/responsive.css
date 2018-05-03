@@ -102,4 +102,8 @@
     margin-bottom: 30px;
   }
 
+  .bx-controls-direction{
+    display: none;
+  }
+
 }
