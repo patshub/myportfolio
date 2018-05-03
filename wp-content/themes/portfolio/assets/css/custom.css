@@ -10,7 +10,7 @@
     font-family: 'Lato', 'Open Sans';
   }
   header{
-    padding: 45px 0 20px 0;
+    padding: 45px 0 30px 0;
     text-align: center;
   }
 
@@ -577,4 +577,17 @@ a img.aligncenter {
   font-weight: 300;
 
   opacity: .5
+}
+
+
+.pager-item{
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+
+  margin:0 4px;
+  background-color: lightgrey;
+}
+.bx-pager-link.active .pager-item{
+  background-color: #333;
 }

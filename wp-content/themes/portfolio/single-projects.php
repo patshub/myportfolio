@@ -46,9 +46,9 @@
 
         <script>
 
-        function replace_page_name(){
-          $('.page_name').text($('.bx-pager-link.active').next('.page-name-hover').text());
-        }
+          function replace_page_name(){
+            $('.page_name').text($('.bx-pager-link.active .pager-item').attr('data-name'));
+          }
 
           $(document).ready(function(){
             $('.project-screens').bxSlider({
@@ -63,34 +63,24 @@
 
               onSlideAfter: function($slideElement, oldIndex, newIndex) {
                 replace_page_name();
+              },
+
+              buildPager: function(slideIndex){
+                switch(slideIndex){
+                  <?php $count = 0; foreach($page_names as $name){ ?>
+                    case <?php echo $count++; ?>:
+                      return '<div data-name="<?php echo $name; ?>" class="pager-item"></div>';
+                  <?php } ?>
+                }
               }
             });
-          });
 
-          $(window).bind("load", function() {
-            var i = 0;
-            var page_names = [];
-            <?php foreach($page_names as $name){ ?>
-              page_names[i++] = '<?php echo $name; ?>';
-            <?php } ?>
-
-            var j = 0;
-            $('.bx-pager-item').each(function() {
-              $(this).append('<div class="page-name-hover">'+ page_names[j++] +'</div>');
-            });
-
-            $('.bx-pager-item').mouseover(function(){
-              $('.page_name').text($(this).find('.page-name-hover').text());
-
-            });
-            $('.bx-pager-item').mouseleave(function(){
-              replace_page_name();
-            });
             $('.bx-controls-direction a').click(function(){
               replace_page_name();
             });
 
           });
+
 
         </script>
 
