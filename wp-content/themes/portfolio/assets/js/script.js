@@ -4,7 +4,7 @@ $( document ).ready(function() {
 
   $('.case-study-btn').click(function(){
     // Case Study Popup
-    $('#case-study .container').css('max-height',$(window).height() - 200);
+    $('#case-study .container').css('max-height',$(window).height());
     $('html, body').css({
         overflow: 'hidden',
         height: '100%'
@@ -40,5 +40,5 @@ $( document ).ready(function() {
 });
 
 $( window ).resize(function() {
-  $('#case-study .container').css('max-height',$(window).height() - 200);
+  $('#case-study .container').css('max-height',$(window).height());
 });

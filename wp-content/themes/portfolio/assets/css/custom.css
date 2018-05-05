@@ -399,7 +399,7 @@ a.btn.back:after{
 #case-study .container{
   height: auto;
   background: white;
-  margin: 75px auto;
+  /* margin: 75px auto; */
 
   padding: 30px;
   box-sizing: border-box;
@@ -484,9 +484,9 @@ a img.aligncenter {
 
 .wp-caption {
     background: #fff;
-    border: 1px solid #f0f0f0;
-    max-width: 96%; /* Image does not overflow the content area */
-    padding: 5px 3px 10px;
+    /* border: 1px solid #f0f0f0; */
+    max-width: 100%; /* Image does not overflow the content area */
+    /* padding: 5px 3px 10px; */
     text-align: center;
 }
 
@@ -512,7 +512,7 @@ a img.aligncenter {
 }
 
 .wp-caption p.wp-caption-text {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 17px;
     margin: 0;
     padding: 0 4px 5px;

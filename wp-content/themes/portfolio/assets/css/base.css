@@ -194,7 +194,7 @@ ul, ol{
   margin: 1.5% 0;
   display: block;
 }
-li{ display: table-row; }
+li{ display: table; }
 li:before{
   font-family: FontAwesome;
   content:"\f105";
