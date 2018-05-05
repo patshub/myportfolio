@@ -18,7 +18,7 @@
         <a href="/" class="btn back">Back to Projects</a>
         <h2><?php echo the_title(); ?></h2>
         <?php if(!empty( get_the_content())){ ?>
-          <a href="#" class="case-study-btn">Case Study</a>
+          <a href="#" class="btn case-study-btn">Case Study</a>
         <?php } ?>
 
         <div class="page_name_container">

@@ -416,6 +416,15 @@ a.btn.back:after{
   top: 15px;
   right: 15px;
 }
+#case-study .case-study-content p,
+#case-study .case-study-content li{
+  font-weight: 300;
+  font-size: 1.1em;
+  line-height: 150%;
+}
+#case-study .case-study-content img{
+  height: auto;
+}
 
 .close:after{
   font-family: FontAwesome;
@@ -429,15 +438,26 @@ a.btn.back:after{
 .case-study-btn{
   font-weight: 400;
   vertical-align: bottom;
-  text-decoration: underline;
+  text-decoration: none;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.case-study-btn:after{
+  display: none;
+}
+a.case-study-btn:hover{
+  background-color: #333;
+  color: #fff;
 }
 .case-study-btn:before{
-  font-family: FontAwesome;
+  /* font-family: FontAwesome;
   content: "\f15c";
 
   margin:0 7.5px 0 0;
   font-size: .85em;
-  vertical-align: bottom;
+  vertical-align: bottom; */
 }
 
 /* =WordPress Core
@@ -512,8 +532,8 @@ a img.aligncenter {
 }
 
 .wp-caption p.wp-caption-text {
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 14px!important;
+    line-height: 17px!important;
     margin: 0;
     padding: 0 4px 5px;
 }

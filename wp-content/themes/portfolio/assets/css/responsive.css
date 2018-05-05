@@ -12,6 +12,10 @@
     position: relative;
     margin: 0 auto 20px auto;
   }
+  a.case-study-btn{
+    position: relative;
+    margin: 20px auto;
+  }
 
 }
 
