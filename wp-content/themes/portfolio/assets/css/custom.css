@@ -419,8 +419,8 @@ a.btn.back:after{
 #case-study .case-study-content p,
 #case-study .case-study-content li{
   font-weight: 300;
-  font-size: 1.1em;
-  line-height: 150%;
+  /* font-size: 1.1em; */
+  /* line-height: 150%; */
 }
 #case-study .case-study-content img{
   height: auto;
