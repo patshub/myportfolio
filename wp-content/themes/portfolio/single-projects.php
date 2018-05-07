@@ -61,6 +61,10 @@
               infiniteLoop: false,
               hideControlOnEnd: true,
 
+              nextText: '',
+              prevText: '',
+              keyboardEnabled: true,
+
               adaptiveHeight: true,
 
               auto: false,
