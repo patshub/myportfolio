@@ -15,7 +15,7 @@ body{
 h1,h2,h3,h4{
   line-height: 130%;
 }
-h1{font-size: 3em;
+h1{font-size: 2em;
   text-align: center;
 }
 h2{font-size: 1.5em; margin: 1.75% 0 .5% 0;}
@@ -67,7 +67,7 @@ section{
 }
 
 .container{
-  width: 1000px;
+  width: 1200px;
   margin: auto;
 }
 

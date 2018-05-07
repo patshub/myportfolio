@@ -12,6 +12,27 @@
   header{
     padding: 45px 0 30px 0;
     text-align: center;
+
+    background: black;
+    margin-bottom: 30px;
+
+    background-image: url('../images/bg-header.png');
+    background-position: center;
+    background-size: cover;
+  }
+  h1 a{
+    color: white!important;
+  }
+  header a{
+    color: white!important;
+  }
+
+  .liner{
+    width: 50px;
+    height: 3px;
+    background-color: #333;
+
+    margin:20px auto 0 auto;
   }
 
   /* Buttons */
@@ -163,8 +184,9 @@ span.site-subtitle{
   display: block;
   font-size: 1.25em;
   font-weight: 300;
-  opacity: .35;
+  opacity: .75;
   margin: 0 0 15px 0;
+  color: white;
 }
 
 .dot{
@@ -172,6 +194,7 @@ span.site-subtitle{
   margin: 0 10px;
   font-size:  1.25em;
   vertical-align: bottom;
+  color: white;
 }
 
 /* Main Navigation */
@@ -369,7 +392,8 @@ h1.bulker{
 }
 .node-heading h2{
   margin-top: 0;
-  font-size: 1.75em;
+  font-size: 2em;
+  font-weight: 600;
 }
 
 a.btn.back{
@@ -418,9 +442,9 @@ a.btn.back:after{
 }
 #case-study .case-study-content p,
 #case-study .case-study-content li{
-  font-weight: 300;
-  /* font-size: 1.1em; */
-  /* line-height: 150%; */
+  font-size: 1em;
+line-height: 160%;
+font-family: 'open sans';
 }
 #case-study .case-study-content img{
   height: auto;
@@ -595,8 +619,6 @@ a img.aligncenter {
   height: 100px;
   font-size: 1.25em;
   font-weight: 300;
-
-  opacity: .5
 }
 
 
