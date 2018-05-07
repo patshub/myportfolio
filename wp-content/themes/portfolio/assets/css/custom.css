@@ -174,7 +174,6 @@ span.site-subtitle{
   vertical-align: bottom;
 }
 
-
 /* Main Navigation */
 ul.menu{
   display: table;
@@ -299,11 +298,12 @@ h1.bulker{
 .project-info{
   margin:10px 0;
 }
-.project-info h3{
-  font-weight: 300;
+.project-info p{
+  font-size: 1.1em;
 }
-.project-info h3 a{
-  color: #333;
+.project-info .project-summary p{
+  font-size: .85em;
+  font-weight: 300;
 }
 .project-item a.btn{
   margin: auto;

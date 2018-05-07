@@ -110,4 +110,11 @@
     display: none;
   }
 
+  .contact-info a{
+    display: block;
+  }
+  .contact-info .dot{
+    display: none;
+  }
+
 }

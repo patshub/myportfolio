@@ -17,6 +17,10 @@
       <div class="node-heading">
         <a href="/" class="btn back">Back to Projects</a>
         <h2><?php echo the_title(); ?></h2>
+        <?php if (!has_excerpt()) { echo ''; } else{ ?>
+          <div class="project-summary"><?php the_excerpt(); ?></div>
+        <?php } ?>
+
         <?php if(!empty( get_the_content())){ ?>
           <a href="#" class="btn case-study-btn">Case Study</a>
         <?php } ?>

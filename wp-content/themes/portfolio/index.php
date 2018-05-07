@@ -24,6 +24,9 @@
               <?php endif; ?>
               <div class="project-info">
                 <p><a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a></p>
+                <?php if (!has_excerpt()) { echo ''; } else{ ?>
+                  <div class="project-summary"><?php the_excerpt(); ?></div>
+                <?php } ?>
               </div>
               <!-- <a class="btn" href="<?php //echo the_permalink(); ?>">View Project</a> -->
             </div>
