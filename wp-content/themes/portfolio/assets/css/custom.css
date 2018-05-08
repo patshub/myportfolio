@@ -258,13 +258,13 @@ span.site-subtitle{
   padding:0;
 }
 .project-item:nth-child(3n-1) .col{
-  padding:2em 1em;
+  padding:0 1.5em 1.5em 1.5em;
 }
 .project-item:nth-child(3n-2) .col{
-  padding:2em 2em 2em 0;
+  padding:0 1.5em 1.5em 0;
 }
 .project-item:nth-child(3n) .col{
-  padding:2em 0 2em 2em;
+  padding:0 0 1.5em 1.5em;
 }
 .project-info{
   margin:10px 0;
