@@ -1,7 +1,5 @@
 $( document ).ready(function() {
 
-
-
   $('.case-study-btn').click(function(){
     // Case Study Popup
     $('#case-study .container').css('max-height',$(window).height());

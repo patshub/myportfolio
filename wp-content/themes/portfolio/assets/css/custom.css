@@ -161,6 +161,11 @@
     bottom: 5px!important;
   }
 
+  .bx-pager-item:first-of-type:last-of-type {
+    display: none
+  }
+
+
 /* ATOMS */
 .line-separator{
   width: 350px;
