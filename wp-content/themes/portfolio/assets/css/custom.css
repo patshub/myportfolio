@@ -9,23 +9,7 @@
   p{
     font-family: 'Lato', 'Open Sans';
   }
-  header{
-    padding: 45px 0 30px 0;
-    text-align: center;
 
-    background: black;
-    margin-bottom: 30px;
-
-    background-image: url('../images/bg-header.png');
-    background-position: center;
-    background-size: cover;
-  }
-  h1 a{
-    color: white!important;
-  }
-  header a{
-    color: white!important;
-  }
 
   .liner{
     width: 50px;
@@ -187,44 +171,40 @@ h1.page-title{
   overflow: auto;
 }
 
+/* Header */
+header{
+  padding: 45px 0 30px 0;
+  text-align: center;
+
+  background: black;
+  margin-bottom: 30px;
+
+  background-image: url('../images/bg-header.png');
+  background-position: center;
+  background-size: cover;
+}
+header a{
+  color: white!important;
+  font-weight: 300;
+}
+p.contact-info{
+  font-size: 1.15em;
+}
 span.site-subtitle{
   text-align: center;
   display: block;
-  font-size: 1.25em;
-  font-weight: 300;
+  font-size: 1.5em;
+  font-weight: 100;
   opacity: .75;
   margin: 0 0 15px 0;
   color: white;
 }
-
 .dot{
   font-weight:  900;
   margin: 0 10px;
   font-size:  1.25em;
   vertical-align: bottom;
   color: white;
-}
-
-/* Main Navigation */
-ul.menu{
-  display: table;
-  margin:1% auto;
-  width: auto;
-}
-ul.menu li{
-  margin:0 10px;
-}
-ul.menu a{
-  font-size: 1em;
-  padding:0 0 5px 0;
-  color: #333;
-  border-bottom: 2px solid white;
-  transition-duration: 0.25s;
-}
-
-li.current-menu-item{
-  font-weight: 700;
-  border-bottom: 2px solid #333;
 }
 
 /* Logo */
@@ -234,49 +214,6 @@ li.current-menu-item{
 .logo h1{
   font-size: 1.5em;
   font-weight: 700;
-}
-
-/* Custom Headers */
-h2 span.bulker{
-  font-size: 2.5em;
-  margin:0 0 30px 0;
-  display: block;
-}
-h2.bulker{
-  font-size: 2.5em!important;
-}
-h1.bulker{
-  font-size: 3.5em!important;
-}
-
-
-/* About Me - Headline */
-.headline-info{
-  margin: auto;
-  display: block;
-}
-#headline .headline-img{
-  width: 185px;
-  height: 185px;
-
-  display: table;
-  margin: auto;
-
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  border-radius: 500px;
-}
-#headline h2{
-  font-size: 1.75em;
-  text-align: center;
-}
-#headline p{
-  text-align: center;
-}
-#headline a.btn{
-  margin: auto;
 }
 
 /* About Me - The Process */
@@ -300,9 +237,6 @@ h1.bulker{
 }
 
 /* Projects Archive */
-#projects{
-
-}
 .project-thumbnail{
   width: 100%;
   height: 250px;
@@ -332,7 +266,6 @@ h1.bulker{
 .project-item:nth-child(3n) .col{
   padding:2em 0 2em 2em;
 }
-
 .project-info{
   margin:10px 0;
 }
@@ -346,7 +279,6 @@ h1.bulker{
 .project-item a.btn{
   margin: auto;
 }
-
 .project-screens{
   margin: 20px 0;
 }
@@ -356,45 +288,6 @@ h1.bulker{
   padding: 40px 0;
   box-sizing: border-box;
 }
-
-/* Contact Page */
-#contact .col-6{
-  display: block;
-  margin: auto;
-
-  text-align: center;
-}
-#contact .col-6 a{
-  color: #333;
-}
-#contact .contact-form{
-  margin:30px 0 0 0;
-}
-#contact label{
-  text-align: left;
-}
-.screen-reader-response{
-  display: none;
-}
-.wpcf7-not-valid-tip{
-  color: red;
-  font-weight: 400;
-}
-.wpcf7-response-output{
-  padding: 10px;
-  box-sizing: border-box;
-  font-weight: 300;
-  border-radius: 5px;
-}
-.wpcf7-validation-errors{
-  background-color: #A60D03;
-  color: white;
-}
-.wpcf7-mail-sent-ok{
-  background-color: #156034;
-  color: white;
-}
-
 
 /* Node */
 .node-heading {
@@ -407,10 +300,9 @@ h1.bulker{
 }
 .node-heading h2{
   margin-top: 0;
-  font-size: 2em;
-  font-weight: 600;
+  font-size: 1.75em;
+  font-weight: 400;
 }
-
 a.btn.back{
   position: absolute;
   left: 0;
@@ -461,19 +353,18 @@ a.btn.back:after{
 #case-study .case-study-content li{
   font-size: 1em;
 line-height: 160%;
-font-family: 'open sans';
+font-family: 'open sans', 'lato';
 }
 #case-study .case-study-content a{
 text-decoration:underline;
 color:#0095da;
 }
 #case-study .case-study-content h2{
- font-size:1.75em;
+ font-size:1.5em;
 }
 #case-study .case-study-content img{
   height: auto;
 }
-
 .close:after{
   font-family: FontAwesome;
   content: "\f057";
@@ -618,23 +509,12 @@ a img.aligncenter {
 	/* Above WP toolbar. */
 }
 
+/* Pager */
 .bx-wrapper .bx-pager-item{
   font-size: 1em;
   position: relative;
   opacity: .75!important;
 }
-.page-name-hover{
-  display: none;
-  position: absolute;
-  left: -30px;
-  top: 10px;
-  text-align: center;
-  z-index: 9999999999999999;
-  background: white;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
 .page_name_container{
   height: 15px;
   margin-top: 20px;
@@ -644,8 +524,6 @@ a img.aligncenter {
   font-size: 1.25em;
   font-weight: 300;
 }
-
-
 .pager-item{
   width: 10px;
   height: 10px;
