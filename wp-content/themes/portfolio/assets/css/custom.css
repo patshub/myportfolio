@@ -248,8 +248,8 @@ span.site-subtitle{
   transition-duration: 0.25s;
 }
 .project-thumbnail:hover{
-  border: 2.5px solid #333;
-  transition-duration: 0.25s;
+  /* border: 2.5px solid #333; */
+  /* transition-duration: 0.25s; */
 }
 .project-item{
   text-align: center;
@@ -387,8 +387,8 @@ color:#0095da;
   display: none;
 }
 a.case-study-btn:hover{
-  background-color: #333;
-  color: #fff;
+  background-color: #fff!important;
+  color: #333;
 }
 .case-study-btn:before{
   /* font-family: FontAwesome;
