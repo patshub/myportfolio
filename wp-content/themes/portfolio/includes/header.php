@@ -29,7 +29,7 @@
       <header>
         <div class="container">
             <h1><a href="/">Patrick Martin</a></h1>
-            <span class="site-subtitle">Web Designer</span>
+            <span class="site-subtitle">UI/UX Designer</span>
             <p class="contact-info"><a href="tel:5628104778">(562) 810-4778</a><span class="dot">·</span><a href="mailto:pmartindesigns@gmail.com">pmartindesigns@gmail.com</a><span class="dot">·</span><a style="text-decoration:underline" href="https://www.linkedin.com/in/pmartindesigns" target="_blank">LinkedIn</a></p>
 
             <!-- Site Menu -->

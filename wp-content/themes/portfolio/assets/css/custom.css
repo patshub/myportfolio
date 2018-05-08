@@ -304,6 +304,13 @@ h1.bulker{
   background-position: 50% 0%;
   background-size: cover;
   background-repeat: no-repeat;
+
+  border:2.5px solid white;
+  transition-duration: 0.25s;
+}
+.project-thumbnail:hover{
+  border: 2.5px solid #333;
+  transition-duration: 0.25s;
 }
 .project-item{
   text-align: center;
@@ -312,13 +319,13 @@ h1.bulker{
   padding:0;
 }
 .project-item:nth-child(3n-1) .col{
-  padding:1em 0.5em;
+  padding:2em 1em;
 }
 .project-item:nth-child(3n-2) .col{
-  padding:1em 1em 1em 0;
+  padding:2em 2em 2em 0;
 }
 .project-item:nth-child(3n) .col{
-  padding:1em 0 1em 1em;
+  padding:2em 0 2em 2em;
 }
 
 .project-info{
@@ -433,6 +440,8 @@ a.btn.back:after{
 
   overflow: auto;
   position: relative;
+  width:750px;
+  max-width:100%;
 }
 #case-study .case-study-content h2:first-child,
 #case-study .case-study-content p:first-child{
@@ -448,6 +457,13 @@ a.btn.back:after{
   font-size: 1em;
 line-height: 160%;
 font-family: 'open sans';
+}
+#case-study .case-study-content a{
+text-decoration:underline;
+color:#0095da;
+}
+#case-study .case-study-content h2{
+ font-size:1.75em;
 }
 #case-study .case-study-content img{
   height: auto;
@@ -600,7 +616,7 @@ a img.aligncenter {
 .bx-wrapper .bx-pager-item{
   font-size: 1em;
   position: relative;
-  opacity: .35!important;
+  opacity: .75!important;
 }
 .page-name-hover{
   display: none;
