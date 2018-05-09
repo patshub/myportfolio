@@ -20,9 +20,6 @@
         <?php if (!has_excerpt()) { echo ''; } else{ ?>
           <div class="project-summary"><?php the_excerpt(); ?></div>
         <?php } ?>
-
-        <div class="liner"></div>
-
         <?php if(!empty( get_the_content())){ ?>
           <a href="#" class="btn case-study-btn">Case Study</a>
         <?php } ?>
@@ -89,7 +86,7 @@
               replace_page_name();
             });
 
-            
+
 
           });
 

@@ -3,7 +3,7 @@
 <head>
    <meta name="description" content="This is the form demo of the talk Talking and listening to web pages" />
    <meta charset="utf-8">
-   <title>My Portfolio</title>
+   <title>Patrick Martin | UI/UX Designer</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -30,7 +30,7 @@
         <div class="container">
             <h1><a href="/">Patrick Martin</a></h1>
             <span class="site-subtitle">UI/UX Designer</span>
-            <p class="contact-info"><a href="tel:5628104778">(562) 810-4778</a><span class="dot">·</span><a href="mailto:pmartindesigns@gmail.com">pmartindesigns@gmail.com</a><span class="dot">·</span><a style="text-decoration:underline" href="https://www.linkedin.com/in/pmartindesigns" target="_blank">LinkedIn</a></p>
+            <p class="contact-info"><a href="tel:5628104778">(562) 810-4778</a><span class="dot">|</span><a href="mailto:pmartindesigns@gmail.com">pmartindesigns@gmail.com</a><span class="dot">|</span><a style="text-decoration:underline" href="https://www.linkedin.com/in/pmartindesigns" target="_blank">LinkedIn</a></p>
 
             <!-- Site Menu -->
             <?php //wp_nav_menu( array( 'theme_location' => 'main-menu','container' => false ) ); ?>
