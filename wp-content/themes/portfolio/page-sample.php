@@ -77,7 +77,7 @@
             <p>The way to solve this issue was to develop design standards that needed to be followed throughout the course of this project. The style guide had to include all elements that will be used in the website, and had to be designed to minimize visual confusion and improve user experience.
             </p>
             <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/styleguide.png" />
-            <h3><strong>Creating a style guide ensures that:</strong></h3>
+            <p>Creating a style guide ensures that:</p>
             <ul>
               <li class="list-item-main"><span class="list-title">The website acquires a brand and a sense of identity that is built upon steady and minimal use of color and typography.</span>
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/santa-ana-cut.png" />
@@ -120,9 +120,9 @@
 
         <div class="col-6">
           <div class="col">
-            <strong>A.</strong> <p>City Hall Page (parent)</p>
+            <strong>A.</strong> City Hall Page (parent)
             <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/cityhall.png" />
-            <strong>B.</strong> <p>Clerk of the Council Page (child)</p>
+            <strong>B.</strong> Clerk of the Council Page (child)
             <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/clerkofthecouncil.png" />
           </div>
         </div>

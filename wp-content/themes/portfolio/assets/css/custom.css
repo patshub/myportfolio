@@ -353,6 +353,8 @@ span.site-subtitle{
   font-weight: 600;
   margin: 0 0 5px 0;
   display: block;
+  font-size: 1.15em;
+  line-height: 30px;
 }
 .text-solution{
   color: #19BC3F;
