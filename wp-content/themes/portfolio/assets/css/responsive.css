@@ -30,6 +30,9 @@
 }
 
 @media only screen and (max-width: 550px) {
+  p{
+    line-height: 24px;
+  }
   [class*='col-']{ width: 100%!important; }
   .col{ padding: 1.15em 0; }
   #headline .headline-info{
@@ -116,5 +119,13 @@
   .contact-info .dot{
     display: none;
   }
+
+  .col-6:nth-of-type(2n-1) .col{
+    padding: 0 0 1.15em 0;
+  }
+  .col-6:nth-of-type(2n) .col{
+    padding: 0 0 1.15em 0;
+  }
+
 
 }

@@ -51,20 +51,23 @@
             <p>Right off the bat, looking over the different pages of the site gave me a sense that it lacked... personality. It didn't have a focus in color, typography, and even the way different elements are laid out. A lot of elements did not look visually compatible with neighboring elements and their environment, which could essentially cause user navigation errors and confusion.</p>
             <p>Below are some of the examples that showed obvious visual inconsistencies:</p>
             <ul>
-              <li class="list-item-main"><span class="list-title">Several different colors are used across the website, which is way more than what is needed.</span>
+              <li class="list-item-main"><span class="list-title">Several colors are used across the website.</span>
+                The site's lack of visual direction can be due to the amount of color being thrown across different pages.
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/colors.png" />
               </li>
               <li class="list-item-main"><span class="list-title">Typography is being used inconsistently across different pages.</span>
+                The image below is an example of two different pages with inconcsistent representations of information. This greatly reiterates the lack of uniformity across the site.
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/font-stylez.png" />
-              </li>
-              <li class="list-item-main"><span class="list-title">There are more than two font styles being used, and font sizes vary greatly.</span>
+                There are about three different font styles being used, and about four varying font sizes. Again, the lack of focus is displayed here.
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/typo-error.png" />
               </li>
               <li class="list-item-main"><span class="list-title">Content blocks in some pages aren't being displayed the same way in other pages.</span>
-                E.g. There are two versions of the website sidebar showing a different font style, font size, and background color.
+                E.g. There are two versions of the website sidebar showing different font styles, font sizes, and background colors.
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/sidebar.png" />
               </li>
-              <li class="list-item-main"><span class="list-title">Elements that are displayed poorly and lack uniqueness compared to other elements lose their credibility and devalues the information they represent. </span>
+              <li class="list-item-main"><span class="list-title">Un-originality</span>
+                Content types that lack a level of originality or uniqueness - relative to other content types - lose their credibility and devalues the information they represent.<br/>
+                E.g. The blocks of content below would be difficult to perceive as three separate event items because of their lack of decoration and visual exclusiveness when compared to other content types.
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/events_old.png" />
               </li>
             </ul>
@@ -79,12 +82,21 @@
             <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/styleguide.png" />
             <p>Creating a style guide ensures that:</p>
             <ul>
-              <li class="list-item-main"><span class="list-title">The website acquires a brand and a sense of identity that is built upon steady and minimal use of color and typography.</span>
+              <li class="list-item-main"><span class="list-title">The website is consistent.</span>
+                The style guide reassures that any particular element's visual representation (e.g. headers, paragraphs, lists, tables, form fields, etc.) will be emulated consistently across the website.
+              </li>
+              <li class="list-item-main"><span class="list-title">The website is personalized.</span>
+                The website acquires a brand and a sense of identity that is built upon steady and minimal use of color, typography, layout, and imagery.
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/santa-ana-cut.png" />
               </li>
-              <li class="list-item-main"><span class="list-title">Visual elements are represented across the website in a consistent manner, which promotes information reliability and improves users' ability to recognize familiar elements.</span>
-                E.g. Events are displayed in a consistent way with different data but same layout (desktop/mobile version).
+              <li class="list-item-main"><span class="list-title">Each type of content gets its own brand, too.</span>
+                Different content types have their own visual representations that users could easily recognize by spotting distinct elements exclusive to a particular type of content.<br/>
+                E.g. There is a clear visual distinction between a list of event items (A) and a list of articles (B). This disimilarity allows users to meaningfully recognize one content type from the another, preventing confusion.
+                <br/>
+                <strong>A.</strong> Events Listing
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/events.png" />
+                <strong>B.</strong> Articles Listing
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/news.png" />
               </li>
             </ul>
           </div>
@@ -129,11 +141,11 @@
       </div>
 
       <div>
-        <h2 class="text-solution">Overlooking the Entire Site</h2>
+        <h2 class="text-solution">Re-visualizing the Site's Architecture</h2>
         <div class="col-6 solution">
           <div class="col">
             <ul>
-              <li class="list-item-main"><span class="list-title">Created a Sitemap</span>
+              <li class="list-item-main"><span class="list-title">Sitemap</span>
                 In order to get a better understanding of the site hierarchy, I created a sitemap which highlighted the key pages and all the subpages that needed to be addressed.<br/>
                 This allowed me to get a better sense of where information will be distributed. It helped in inspiring the design to accomodate to users by ensuring that they are always aware of where they are in the site's hierarchy.
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/sitemap.png" />
@@ -145,7 +157,7 @@
         <div class="col-6 solution">
           <div class="col">
             <ul>
-              <li class="list-item-main"><span class="list-title">Categorizing Key Pages</span>
+              <li class="list-item-main"><span class="list-title">Page Categorization</span>
                 After collaborating with our client on the hierarchical issues, we had collectively decided on a design solution: to categorize key pages by their department and make the department section more prominent.
                 <br/>
                 E.g. Below is an example of how a page's hierarchy can be presented in an understandable way. It shows a basic page that belongs to the 'Parks & Recreation' department. In fact, any page that belongs to that department will have the same header.
@@ -154,7 +166,7 @@
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/dept-category.png" />
               </li>
 
-              <li class="list-item-main"><span class="list-title">Universal Sidebar that matches with Breadcrumbs</span>
+              <li class="list-item-main"><span class="list-title">Universal Sidebar</span>
                 I redesigned the old site's sidebar menu to show more hierarchical depth. As a result, users are able to understand better where they are in the pyramid of content, which is helpful for making it more efficient for them to find what they’re looking for or to simply explore the site.
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/sidebar-new.png" />
                 The page's breadcrumbs must have the same hierarchical structure as the sidebar menu. This visual consistency further improves user navigation and minimizes confusion.
