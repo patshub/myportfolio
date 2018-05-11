@@ -10,7 +10,6 @@
     font-family: 'Lato', 'Open Sans';
     margin: 1% 0;
     line-height: 28px;
-    display: inline;
   }
 
   /* Buttons */
@@ -308,8 +307,10 @@ span.site-subtitle{
   text-align: center;
   width: 500px;
   max-width: 100%;
-
   margin: 25px auto;
+}
+#project .centerize p{
+  display: block;
 }
 #project li img,
 #project [class*='col-'] img{
@@ -319,7 +320,7 @@ span.site-subtitle{
   padding: 20px;
   box-sizing: border-box;
 
-  opacity: .6;
+  opacity: .75;
   transition-duration: .25s;
 }
 #project li img:hover,
