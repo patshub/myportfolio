@@ -35,8 +35,13 @@ $( document ).ready(function() {
     $('.tab-item').removeClass('active');
     $('.'+$(this).attr('data-id')).addClass('active');
   });
+
 });
 
 $( window ).resize(function() {
   $('#case-study .container').css('max-height',$(window).height());
+});
+
+$(window).on('load', function() {
+  $('.view-website-btn').css('display','table');
 });

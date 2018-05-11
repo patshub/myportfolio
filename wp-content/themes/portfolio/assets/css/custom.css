@@ -28,7 +28,7 @@
   }
   .btn:hover, input[type="submit"]:hover{
     background-color: #fff;
-    color: #333;
+    color: #333!important;
     transition-duration: 0.15s;
   }
   .btn:after, input[type="submit"]:after{
@@ -363,7 +363,8 @@ span.site-subtitle{
   color: #E23D3D;
 }
 .solution li.list-item-main:before,
-.issue li.list-item-main:before{
+.issue li.list-item-main:before,
+.learned li.list-item-main:before{
   font-size: 2em;
   vertical-align: top;
   position: relative;
@@ -378,6 +379,10 @@ span.site-subtitle{
 .issue li.list-item-main:before{
   content: "\f057";
   color: #E23D3D;
+}
+.learned li.list-item-main:before{
+  content: "\f055";
+  color: #009BE3;
 }
 
 
@@ -416,7 +421,8 @@ a.btn.back:after{
   top: 0;
   left: 0;
   z-index: 9999999;
-  display: none;
+  /* display: none; */
+  visibility: hidden;
 }
 #case-study .container{
   height: auto;
@@ -428,7 +434,7 @@ a.btn.back:after{
 
   overflow: auto;
   position: relative;
-  width:750px;
+  width:1096px;
   max-width:100%;
 }
 #case-study .case-study-content h2:first-child,
@@ -464,6 +470,20 @@ color:#0095da;
   opacity: .25;
 }
 
+/* View Website Button */
+.view-website-btn{
+  margin: auto;
+  display: none;
+  margin-bottom: 40px;
+  background-color: #009BE3;
+  border: 1.5px solid #009BE3;
+  color: white;
+}
+.view-website-btn:hover{
+  border: 1.5px solid #009BE3;
+  background-color: #fff;
+  color: #009BE3;
+}
 /* Case Study Button */
 .case-study-btn{
   font-weight: 400;
@@ -607,8 +627,9 @@ a img.aligncenter {
   opacity: .75!important;
 }
 .page_name_container{
-  height: 15px;
   margin-top: 20px;
+  display: block;
+  text-align: center;
 }
 .page_name{
   height: 100px;

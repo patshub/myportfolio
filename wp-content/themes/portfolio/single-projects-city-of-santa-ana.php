@@ -9,16 +9,9 @@
         <div class="project-type"><?php the_excerpt(); ?></div>
       <?php } ?>
 
-      <div id="case-study">
-        <div class="container">
-          <div class="case-study-content">
-            test body
-            <span class="close"></span>
-          </div>
-        </div>
+      <div style="clear:both; height:60px;">
+        <a href="#website-view" class="btn view-website-btn">View Website</a>
       </div>
-
-      <a href="#" class="btn view-website-btn">View Website</a>
 
       <div class="clear"></div>
 
@@ -49,7 +42,6 @@
       <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/santa-ana-old.png" />
 
       <hr/>
-
       <div class="page-section centerize">
         <h2>Design Solutions</h2>
         <p>After further browsing through the old site, more and more did I realize that it needed more than just an extreme makeover. Below are the issues I discovered and the solutions I crafted along the way.</p>
@@ -140,7 +132,6 @@
             </ul>
           </div>
         </div>
-
         <div class="col-6">
           <div class="col">
             <strong>A.</strong> City Hall Page (parent)
@@ -176,7 +167,6 @@
                 This refined representation of hierarchy provides clarity about where users are in the site and helps contextualize the content being viewed.
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/dept-category.png" />
               </li>
-
               <li class="list-item-main"><span class="list-title">Universal Sidebar</span>
                 I redesigned the old site's sidebar menu to show more hierarchical depth. As a result, users are able to understand better where they are in the pyramid of content, which is helpful for making it more efficient for them to find what they’re looking for or to simply explore the site.
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/sidebar-new.png" />
@@ -184,13 +174,11 @@
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/breadcrumbs.png" />
               </li>
             </ul>
-
           </div>
         </div>
       </div>
 
       <hr/>
-
       <div class="page-section centerize">
         <h2>Lessons Learned</h2>
       </div>
@@ -221,7 +209,7 @@
         <div class="col-6 learned">
           <div class="col">
             <ul>
-              <li class="list-item-main"><span class="list-title">Creative Control is a Thing</span>
+              <li class="list-item-main"><span class="list-title">Have Creative Control</span>
                 It can be tempting to think there are no challenges in using an existing template as basis to design an entire website.
                 However, it was a challenging task for me to limit my tendencies to 'overdesign'.
                 In other words, I could juice out the peak of my creativity but only within the constraints of an already-established design (presented as the Homepage for this project).
@@ -231,11 +219,72 @@
             </ul>
           </div>
         </div>
+      </div>
 
+      <div id="website-view">
+        <hr/>
+        <div class="page-section centerize">
+          <h2>Full Website</h2>
+        </div>
+        <div class="page_name_container">
+          <span class="page_name">Homepage</span>
+        </div>
+
+        <div id="project-details">
+          <?php $field_group = get_group('project_item');  ?>
+          <div class="project-screens">
+            <?php
+              $count = 1;
+              $page_names = array();
+              foreach($field_group as $field){
+              array_push($page_names, $field['project_item_title'][1]); ?>
+
+              <div class="screen-item">
+                <img src="<?php echo get('project_item_image',$count,$field); ?>" />
+              </div>
+            <?php $count++; } ?>
+          </div>
+        </div>
       </div>
 
     </div>
   </section>
+  <script>
+    function replace_page_name(){
+      $('.page_name').text($('.bx-pager-link.active .pager-item').attr('data-name'));
+    }
+    $(document).ready(function(){
+      $('.project-screens').bxSlider({
+        infiniteLoop: false,
+        hideControlOnEnd: true,
+
+        nextText: '',
+        prevText: '',
+        keyboardEnabled: true,
+
+        adaptiveHeight: true,
+
+        auto: false,
+        pause: 6000,
+        autoHover: true,
+
+        onSlideAfter: function($slideElement, oldIndex, newIndex) {
+          replace_page_name();
+        },
+        buildPager: function(slideIndex){
+          switch(slideIndex){
+            <?php $count = 0; foreach($page_names as $name){ ?>
+              case <?php echo $count++; ?>:
+                return '<div data-name="<?php echo $name; ?>" class="pager-item"></div>';
+            <?php } ?>
+          }
+        }
+      });
+      $('.bx-controls-direction a').click(function(){
+        replace_page_name();
+      });
+    });
+  </script>
 <?php endwhile; else: ?>
 <p>Sorry, no posts matched your criteria.</p>
 <?php endif; ?>
