@@ -17,12 +17,16 @@
 
       <div class="col-6">
         <div class="col">
-          <h2>Website Redesign</h2>
+          <h2>The Project</h2>
           <p>
-            The City of Santa Ana website is home to an abundance of city-related resources and information available for its residents and community.
-            My advisor at the time started this web project off by reconceptualizing their current website homepage with a new branding.</p>
-          <h2>The Goal</h2>
-          <p>After client approval, the project was assigned for me to continue designing the interior pages, using the homepage design as my visual basis.</p>
+            The City of Santa Ana website, home to residential information, online services, job opportunities, city-wide alerts, and community-related articles and events,
+            require a full aesthetic makeover to ensure that information is as visually more pleasing as it is accessible.
+            <br/>My advisor at the time started off by redesigning their current homepage with a brand new... brand.
+          </p>
+          <h2>My Job: <strong style="clear:both;display:block;">To Redesign the Interior Pages</strong></h2>
+          <p>After client approval, the project was assigned for me to continue designing the interior pages, using the homepage design as my visual basis.
+            My goal was to ensure that the rest of the site feels as consistently rich and colorful as the approved homepage design.
+          </p>
             <!-- My design advisor provided the design materials and a style guide for me to ensure that the rest of the website feels as rich and colorful as the concepts portrayed in the homepage. -->
         </div>
       </div>
@@ -41,14 +45,18 @@
 
       <div class="centerize">
         <h2>Looking Back</h2>
-        <p>Even though there was already an established homepage design to kick off this project, it was still worth paying the old Santa Ana site a visit in an effort to identify pros and cons in the designs, what could be improved, and to get a sense of the site’s architecture and content hierarchies.</p>
+        <p>Even though there was already an established homepage design to kick this project off,
+          it was worth taking a step back and paying the old site a visit in an effort to identify pros and cons in the designs, what could be improved, and to get a sense of the site’s architecture.
+        </p>
       </div>
       <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/santa-ana-old.png" />
 
       <hr/>
       <div class="page-section centerize">
         <h2>Design Solutions</h2>
-        <p>After further browsing through the old site, more and more did I realize that it needed more than just an extreme makeover. Below are the issues I discovered and the solutions I crafted along the way.</p>
+        <p>After further browsing through the old site, more and more did I realize that it needed more than just an extreme makeover.
+          The in-depth analysis of the site led me to discover many visual issues that needed to be addressed.
+          Below are the issues I discovered and the solutions I crafted along the way.</p>
       </div>
 
       <div>
