@@ -17,9 +17,13 @@
 
       <div class="col-6">
         <div class="col">
-          <h2>The Story</h2>
-          <p>My design advisor at the time started this project off by reconceptualizing Santa Ana’s current site homepage (see image below), which was eventually approved by the client.
-          <br/><br/>After client approval, the project was assigned for me to continue designing the interior pages, using the homepage design as my visual basis. My design advisor provided the design materials and a style guide for me to ensure that the rest of the website feels as rich and colorful as the concepts portrayed in the homepage.</p>
+          <h2>Website Redesign</h2>
+          <p>
+            The City of Santa Ana website is home to an abundance of city-related resources and information available for its residents and community.
+            My advisor at the time started this web project off by reconceptualizing their current website homepage with a new branding.</p>
+          <h2>The Goal</h2>
+          <p>After client approval, the project was assigned for me to continue designing the interior pages, using the homepage design as my visual basis.</p>
+            <!-- My design advisor provided the design materials and a style guide for me to ensure that the rest of the website feels as rich and colorful as the concepts portrayed in the homepage. -->
         </div>
       </div>
       <div class="col-6">
@@ -167,7 +171,7 @@
                 This refined representation of hierarchy provides clarity about where users are in the site and helps contextualize the content being viewed.
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/dept-category.png" />
               </li>
-              <li class="list-item-main"><span class="list-title">Universal Sidebar</span>
+              <li class="list-item-main"><span class="list-title">Universal Sidebar Menu</span>
                 I redesigned the old site's sidebar menu to show more hierarchical depth. As a result, users are able to understand better where they are in the pyramid of content, which is helpful for making it more efficient for them to find what they’re looking for or to simply explore the site.
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/sidebar-new.png" />
                 The page's breadcrumbs must have the same hierarchical structure as the sidebar menu. This visual consistency further improves user navigation and minimizes confusion.
@@ -193,7 +197,7 @@
                 <ul>
                   <li>to incorporate a level of consistency or uniformity on every element being used</li>
                   <li>to use color, typography, and imagery effectively so that they compliment one another rather than create distractions</li>
-                  <li>to grant key elements or content types their own visual identity, exclusively.
+                  <li>to grant key elements or content types their own exclusive visual identity.
                     This can help users make distinctions between different types of content.</li>
                 </ul>
               </li>
