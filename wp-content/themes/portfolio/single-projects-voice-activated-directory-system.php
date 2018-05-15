@@ -10,7 +10,7 @@
       <?php } ?>
 
       <div style="clear:both; height:60px;">
-        <a href="#website-view" class="btn view-website-btn">View Design</a>
+        <a href="#website-view" class="btn view-website-btn">Final Design</a>
       </div>
 
       <div class="clear"></div>
@@ -379,25 +379,23 @@
               <li class="list-item-main"><span class="list-title">Subtitles</span>
                 We provided subtitles at the bottom of the user interface in an effort to make the system more accessible to users with hearing disabilities.
               </li>
-              <li class="list-item-main"><span class="list-title">Minimized Steps to Desired Results</span>
-                We decided to limit the number of page navigations so that users aren’t required to perform multiple commands to get to their desired results. We wanted to ensure that a user could make a single request to acquire all the information they need. This also meant that the interface design needed to be as minimalistic as possible to prevent users from being overloaded with information.
+              <li class="list-item-main"><span class="list-title">Minimal Steps to Desired Results</span>
+                We decided to limit the number of page navigations so that users aren’t required to perform multiple commands to get to their desired results. We wanted to ensure that a user could make a single request to acquire all the information they need.
+                <br/>This also meant that the interface design needed to be as minimalistic as possible to prevent users from being overloaded with information.
               </li>
               <li class="list-item-main"><span class="list-title">Error Prevention</span>
-                We incorporated error prevention in the design by persistently providing instructions to users so they never get stuck on any steps, at any given time.
+                We incorporated error prevention in the design by persistently providing side instructions to users so they never get stuck on any steps, at any given time.
               </li>
             </ul>
           </div>
         </div>
       </div>
-
-
-
-
-      <hr/>
-      <div class="page-section centerize">
-        <h2>Final Design</h2>
-      </div>
+      
       <div id="website-view">
+        <hr/>
+        <div class="page-section centerize">
+          <h2>Final Design</h2>
+        </div>
         <div class="page_name_container">
           <span class="page_name">Start Screen</span>
         </div>
@@ -444,7 +442,7 @@
       </div>
       <div class="centerize">
         <h2 class="surpassed">Surpassed Expectations</h2>
-        <p>Our client, after we showed him the final design iteration of the system, was amazed by how far we’ve taken this project. He initially
+        <p>Our client, after showing him the final design iteration of the system, was amazed by how far we’ve taken this project. He initially
           expected us to only develop a voice-activated directory device that responds to user requests strictly in an auditory fashion, but he was
           extremely happy with our integration of a user interface because it improved the overall usability of the system.</p>
       </div>
@@ -452,12 +450,12 @@
 
 
 
-      <hr/>
+      <!-- <hr/>
       <div class="page-section centerize">
         <h2>Lessons Learned</h2>
-      </div>
+      </div> -->
 
-      <div>
+      <!-- <div>
         <div class="col-6 learned">
           <div class="col">
             <ul>
@@ -492,7 +490,7 @@
             </ul>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </div>
   </section>
