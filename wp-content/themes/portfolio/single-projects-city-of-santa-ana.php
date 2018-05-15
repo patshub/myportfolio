@@ -17,6 +17,12 @@
 
       <div class="col-6">
         <div class="col">
+          <img class="none" src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/thumbnail-monitor.png" />
+        </div>
+      </div>
+      
+      <div class="col-6">
+        <div class="col">
           <h2>The Project</h2>
           <p>
             The City of Santa Ana website, home to residential information, online services, job opportunities, city-wide alerts, and community-related articles and events,
@@ -28,12 +34,7 @@
             <!-- My design advisor provided the design materials and a style guide for me to ensure that the rest of the website feels as rich and colorful as the concepts portrayed in the homepage. -->
         </div>
       </div>
-      <div class="col-6">
-        <div class="col">
-          <div class="screenshot" style="background-image:url('<?php bloginfo('template_url'); ?>/assets/images/santa-ana.png');">
-          </div>
-        </div>
-      </div>
+
 
       <hr/>
 
@@ -142,7 +143,7 @@
                   For example, if we assume that the City Hall page (A) has the correct breadcrumb structure, then the Clerk of the Council department (B) is missing its parent's breadcrumb label after the 'Home' label and before the 'Clerk of the Council' label.
               </li>
               <li class="list-item-main"><span class="list-title">Headers</span>
-                Page titles can make an impact in presenting page hierarchy. The Clerk of the Council page header (B) looks more prominent than that of the City Hall's, which users may perceive as the more dominant page. 
+                Page titles can make an impact in presenting page hierarchy. The Clerk of the Council page header (B) looks more prominent than that of the City Hall's, which users may perceive as the more dominant page.
               </li>
             </ul>
           </div>

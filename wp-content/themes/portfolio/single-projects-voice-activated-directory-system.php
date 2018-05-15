@@ -15,6 +15,22 @@
 
       <div class="clear"></div>
 
+      <div>
+        <div class="col-6">
+          <div class="col">
+            <img class="none" src="<?php bloginfo('template_url'); ?>/assets/images/projects/soe/thumbnail-monitor.png" />
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="col">
+            <h2 class="page-headline">Integrating Voice-Recognition to an Existing Directory</h2>
+            <p>With a team of 6 passionate and driven UCI senior students, our project was to redesign a visually-outdated UCI directory system in an effort to create a more fun, engaging, and efficient experience for students, faculty members, and visitors.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+
       <div class="col-5">
         <div class="col">
           <img class="none" style="margin:0 0 25px 0;" src="<?php bloginfo('template_url'); ?>/assets/images/projects/soe/currentSystem.png" />
@@ -35,7 +51,7 @@
               <div class="col">
                 <h2>Our Client</h2>
                 <h3><strong>Hyuk Kang</strong></h3>
-                <p>IT Directory of UCI School of Education</p>
+                <p>IT Director of UCI School of Education</p>
               </div>
             </div>
           </div>
@@ -209,16 +225,20 @@
           width: 1.75em;
           font-size: 3em;
           position: relative;
-          top: 15px;
+          top: 20px;
           color: #009BE3;
           text-align: center;
           padding: 0 0px 0 0;
           box-sizing: border-box;
         }
-        #directory-system-features li.visual:before{content: "\f026";}
-        #directory-system-features li.map:before{content: "\f0ca";}
-        #directory-system-features li.interface:before{content: "\f075";}
-        #directory-system-features li.accuracy:before{content: "\f05a";}
+        #directory-system-features li.visual:before{content: "\f108";}
+        #directory-system-features li.map:before{content: "\f279";}
+        #directory-system-features li.interface:before{content: "\f2bd";}
+        #directory-system-features li.accuracy:before{content: "\f140";}
+
+        #directory-system-features .list-title{
+          font-weight: 400;
+        }
       </style>
 
       <div id="directory-system-features">
@@ -226,10 +246,10 @@
           <div class="col">
             <ul>
               <li class="list-item-main visual">
-                <span class="list-title">Visual capabilities for optimized feedback, more informative instructions, and improved accessibility</span>
+                <span class="list-title">Visual capabilities for more instructive feedback and improved accessibility</span>
               </li>
               <li class="list-item-main map">
-                <span class="list-title">Informative map with appropriate data and a point of reference</span>
+                <span class="list-title">Informative map presenting data and a point of reference</span>
               </li>
             </ul>
           </div>
@@ -355,16 +375,20 @@
           <div class="col">
             <ul>
               <li class="list-item-main"><span class="list-title">Press "Start" Button to Initiate System</span>
-                To prevent the system from being unintentionally activated, we added an initial prerequisite in the Home screen to activate the system by pressing a ‘Start’ button first. This ensured that the system could only accept commands when being used intentionally.
+                <p>To prevent the system from being unintentionally activated, we added an initial prerequisite in the Home screen to activate the system by pressing a ‘Start’ button first. This ensured that the system could only accept commands when being used intentionally.</p>
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/soe/start-btn.png" />
               </li>
               <li class="list-item-main"><span class="list-title">"Reset" System Command</span>
-                There needed to be a way for users to reset the system after it’s been used. A command like “Reset” or “Search Again” was added to accomplish this.
+                <p>There needed to be a way for users to reset the system after it’s been used. A command like “Reset” or “Search Again” was added to accomplish this.</p>
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/soe/reset-command.png" />
               </li>
-              <li class="list-item-main"><span class="list-title">System Response to User Inactivity:<span style="display:block;">"Are You Still There?"</span></span>
-                We added a way for the system to respond to user inactivity by asking if the user still needs more time, 2 or 3 times, before eventually restarting itself to the Home screen (or initial state).
+              <li class="list-item-main"><span class="list-title">System Response to User Inactivity</span>
+                <p>We added a way for the system to respond to user inactivity by asking if the user still needs more time, 2 or 3 times, before eventually restarting itself to the Home screen (or initial state).</p>
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/soe/are-you-still-there.png" />
               </li>
               <li class="list-item-main"><span class="list-title">Visual Feedback on Voice-Recognition Status</span>
-                We designed a way for users to differentiate between active and inactive statuses of the system so that users will know when or when not to interact with the system.
+                <p>We designed a way for users to differentiate between active and inactive statuses of the system so that users will know when or when not to interact with the system.</p>
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/soe/mic-status.png" />
               </li>
             </ul>
           </div>
@@ -374,6 +398,7 @@
             <ul>
               <li class="list-item-main"><span class="list-title">Dotted Lines to Destination</span>
                 A directory map wouldn’t be complete without having a point of reference and a path line that directs it to a specific destination. We wanted to make sure that the digital version of the directory map reflects the actual structure of the floor level.
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/soe/dotted-lines.png" />
               </li>
 
               <li class="list-item-main"><span class="list-title">Subtitles</span>
@@ -382,15 +407,17 @@
               <li class="list-item-main"><span class="list-title">Minimal Steps to Desired Results</span>
                 We decided to limit the number of page navigations so that users aren’t required to perform multiple commands to get to their desired results. We wanted to ensure that a user could make a single request to acquire all the information they need.
                 <br/>This also meant that the interface design needed to be as minimalistic as possible to prevent users from being overloaded with information.
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/soe/user-flow.png" />
               </li>
               <li class="list-item-main"><span class="list-title">Error Prevention</span>
                 We incorporated error prevention in the design by persistently providing side instructions to users so they never get stuck on any steps, at any given time.
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/soe/prompt.png" />
               </li>
             </ul>
           </div>
         </div>
       </div>
-      
+
       <div id="website-view">
         <hr/>
         <div class="page-section centerize">

@@ -255,7 +255,7 @@ span.site-subtitle{
 .project-thumbnail:hover{
   /* border: 2.5px solid #333; */
   transition-duration: 0.25s;
-  background-size: 115%;
+  background-size: 107%;
 }
 .project-item{
   text-align: center;
@@ -403,7 +403,10 @@ span.site-subtitle{
   color: #009BE3;
 }
 
-
+.page-headline{
+  font-size: 2em;
+  font-weight: 300;
+}
 .node-heading {
     display: block;
     margin: 0 auto 10px auto;
@@ -439,8 +442,7 @@ a.btn.back:after{
   top: 0;
   left: 0;
   z-index: 9999999;
-  /* display: none; */
-  visibility: hidden;
+  display: none;
 }
 #case-study .container{
   height: auto;
