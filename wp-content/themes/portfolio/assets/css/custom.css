@@ -144,6 +144,11 @@
 
 
 /* ATOMS */
+img.none{
+  border: none!important;
+  padding: 0!important;
+  opacity: 1!important;
+}
 .line-separator{
   width: 350px;
   max-width: 100%;
@@ -258,15 +263,7 @@ span.site-subtitle{
 .project-item .col{
   padding:0;
 }
-.project-item:nth-child(3n-1) .col{
-  padding:0 1.5em 1.5em 1.5em;
-}
-.project-item:nth-child(3n-2) .col{
-  padding:0 1.5em 1.5em 0;
-}
-.project-item:nth-child(3n) .col{
-  padding:0 0 1.5em 1.5em;
-}
+
 .project-info{
   margin:10px 0;
 }
@@ -305,11 +302,18 @@ span.site-subtitle{
 }
 #project .centerize{
   text-align: center;
-  width: 500px;
+  width: 550px;
   max-width: 100%;
   margin: 25px auto;
 }
-#project .centerize p{
+#project .lefterize{
+  text-align: left;
+  width: 500px;
+  max-width: 100%;
+  margin: 25px 0;
+}
+#project .centerize p,
+#project .lefterize p{
   display: block;
 }
 #project li img,
@@ -334,11 +338,25 @@ span.site-subtitle{
   background-size: cover;
   background-position: 50% 0;
 }
-.col-6:nth-of-type(2n-1) .col{
+.col-4:nth-child(3n-1) .col{
+  padding:0 1.5em 1.5em 1.5em;
+}
+.col-4:nth-child(3n-2) .col{
   padding:0 1.5em 1.5em 0;
 }
-.col-6:nth-of-type(2n) .col{
+.col-4:nth-child(3n) .col{
   padding:0 0 1.5em 1.5em;
+}
+
+.col-6:nth-of-type(2n-1) .col,
+.col-8:nth-of-type(1) .col,
+.col-9:nth-of-type(1) .col{
+  padding:0 3.5% 1.5em 0;
+}
+.col-6:nth-of-type(2n) .col,
+.col-8:nth-of-type(2) .col,
+.col-9:nth-of-type(2) .col{
+  padding:0 0 1.5em 3.5%;
 }
 [class*='col-'].center{
   display: block;
