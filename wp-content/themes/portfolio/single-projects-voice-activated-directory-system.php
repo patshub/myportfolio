@@ -24,7 +24,7 @@
         <div class="col-6">
           <div class="col">
             <h2 class="page-headline">Integrating Voice-Recognition to an Existing Directory</h2>
-            <p>With a team of 6 passionate and driven UCI senior students, our project was to redesign a visually-outdated UCI directory system in an effort to create a more fun, engaging, and efficient experience for students, faculty members, and visitors.</p>
+            <p>With a team of 6 passionate and driven UCI senior students, our project was to redesign a visually-outdated UCI directory system in an effort to ultimately provide a compelling user experience that is fun, engaging, and reliable for students, faculty members, and visitors.</p>
           </div>
         </div>
       </div>
@@ -180,7 +180,7 @@
                 Users can get trapped on the get-go for not having to know what the device’s true use is without an immediate display of instructions they can follow.
               </li>
               <li class="list-item-main"><span class="list-title">Frequent Pauses can Bore Users</span>
-                Without immediate visual feedback to tell users what the system status currently is, not only could users lose some interest and get bored, but it would also consume time more so than how long they planned to invest on interacting with the system.
+                Without immediate feedback to tell users what the system status currently is, not only could users lose some interest and get bored, but it would also consume time more so than how long they planned to invest on interacting with the system.
               </li>
             </ul>
           </div>
@@ -188,7 +188,7 @@
 
         <div class="col-6 issue">
           <div class="col">
-            <li class="list-item-main"><span class="list-title">Little to No Accessible Improvement</span>
+            <li class="list-item-main"><span class="list-title">Little to No Accessibility Improvement</span>
               While having auditory capabilities can help users with visual disabilities harness information from the system, the lack of visual feedback ignores the other reality that there are users with auditory disabilities or who aren’t technically savvy, which may deem the system inaccessible for those users.
             </li>
             <li class="list-item-main"><span class="list-title">Interruptive Outside Noise</span>
@@ -217,7 +217,7 @@
       </div>
 
       <div class="centerize">
-        <h2><strong>What Makes a Good Directory System?</strong></h2>
+        <h2><strong>What Makes a Good <span style="display:block;clear:both;"><del>Voice-Recognition</del> Directory System?</span></strong></h2>
       </div>
 
       <style>
@@ -242,7 +242,8 @@
       </style>
 
       <div id="directory-system-features">
-        <div class="col-6">
+        <div class="col-1"><div class="col"></div></div>
+        <div class="col-5">
           <div class="col">
             <ul>
               <li class="list-item-main visual">
@@ -254,11 +255,11 @@
             </ul>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-5">
           <div class="col">
             <ul>
               <li class="list-item-main interface">
-                <span class="list-title">Well-designed interface that is user-focused and aesthetically minimal.</span>
+                <span class="list-title">Well-designed interface that is user-focused and aesthetically minimal</span>
               </li>
               <li class="list-item-main accuracy">
                 <span class="list-title">Accurate data that prevents user confusion and ensures reliability</span>
@@ -266,6 +267,7 @@
             </ul>
           </div>
         </div>
+        <div class="col-1"><div class="col"></div></div>
       </div>
 
       <hr/>

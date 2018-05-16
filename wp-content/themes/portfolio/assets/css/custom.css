@@ -500,9 +500,9 @@ color:#0095da;
   color: white;
 }
 .view-website-btn:hover{
-  border: 1.5px solid #009BE3;
+  border: 1.5px solid #009BE3!important;
   background-color: #fff;
-  color: #009BE3;
+  color: #009BE3!important;
 }
 /* Case Study Button */
 .case-study-btn{
