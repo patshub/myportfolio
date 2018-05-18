@@ -55,8 +55,6 @@
               </div>
             </div>
           </div>
-          <div></div>
-          <h2>The Project</h2>
           <p>
             The IT Director of UCI’s School of Education, Hyuk Kang, believed that there was a lot of
             room for improving the directory system currently installed in the 2nd floor of UCI's School
@@ -73,7 +71,7 @@
 
       <hr/>
       <div class="page-section centerize">
-        <h2>Goal</h2>
+        <h2>The Project</h2>
       </div>
       <div class="centerize">
         <h3>Design the Directory System to be solely <strong style="margin:8px 0 20px 0;display:block; clear:both;font-size:1.75em;">Voice-Activated</strong></h3>
@@ -272,10 +270,12 @@
 
       <hr/>
       <div class="page-section centerize">
-        <h2>The Project</h2>
+        <h2>Solution</h2>
       </div>
       <div class="centerize">
-        <h2 class="text-solution"><strong>Proposing a New Solution</strong></h2>
+        <!-- <h2 class="text-solution"><strong>Proposing a New Solution</strong></h2> -->
+        <h3>Add<strong style="margin:8px 0 20px 0;display:block; clear:both;font-size:1.75em;">Visual Display</strong></h3>
+
         <p>With the research data we've gathered along the way, we had proposed a solution to our client that promised to generate better results while maintaining our project's scope in tact.
           <br/>Our goal from the beginning was to create an intuitive user experience and robust system. We felt that this solution would be an improvement from what the initial system intended to be,
           because it better reflected what directory systems are at their core, while satisfying what the client wanted to include in the system (which was a voice-recognition feature).
