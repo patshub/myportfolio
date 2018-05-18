@@ -37,12 +37,11 @@ p.meta{ font-size: .85em; opacity: .85; }
 
 a{
   text-decoration: none;
-  color: #333;
+  color: #0095da;
 }
 a:active,
-a::selection,
 a:visited{
-  color: #333;
+  color: #0095da;
 }
 a.btn:active,
 a.btn::selection,
@@ -186,6 +185,7 @@ ul.breadcrumbs li:before{ display: none; }
     width: auto;
     white-space: nowrap;
     padding: 7px 10px;
+    box-sizing: border-box;
     text-decoration: none;
     border-radius: 15px;
     background: #165d83;
@@ -205,7 +205,7 @@ ul, ol{
   margin: 1.5% 0;
   display: block;
 }
-li{ display: table; margin:2.5% 0;}
+li{ display: table; margin:1.5% 0;}
 li li{ font-size: 1em; }
 li:before{
   font-family: FontAwesome;
@@ -219,7 +219,13 @@ ol li{
   display: list-item;
 }
 ol li:before{ display: none; }
-
+li a {
+    text-decoration: underline;
+    color: #0095da!important;
+}
+li a:active, li a::selection, li a:visited{
+  color: #0095da;
+}
 
 /************** FORMS **************/
 input, textarea, select {

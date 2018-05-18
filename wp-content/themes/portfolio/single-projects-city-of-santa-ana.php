@@ -20,7 +20,7 @@
           <img class="none" src="<?php bloginfo('template_url'); ?>/assets/images/projects/santa-ana/thumbnail-monitor.png" />
         </div>
       </div>
-      
+
       <div class="col-6">
         <div class="col">
           <h2>The Project</h2>

@@ -25,11 +25,57 @@
           <div class="col">
             <h2 class="page-headline">Integrating Voice-Recognition to an Existing Directory</h2>
             <p>With a team of 6 passionate and driven UCI senior students, our project was to redesign a visually-outdated UCI directory system in an effort to ultimately provide a compelling user experience that is fun, engaging, and reliable for students, faculty members, and visitors.</p>
+
+            <div class="col"></div>
+            <h3>Table of Contents</h3>
+
+            <div>
+              <div class="col-6">
+                <div class="col">
+                  <ul id="table-of-contents">
+                    <li><a href="#section-overview">Overview</a></li>
+                    <li><a href="#section-project">The Project</a></li>
+                    <li>
+                      <a href="#section-research">Research</a>
+                      <ul>
+                        <li><a href="#section-competitive-analysis">Competitive Analysis</a></li>
+                        <li><a href="#section-issues">Issues Discovered</a></li>
+                        <li><a href="#section-what-went-wrong">What Went Wrong?</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#section-critical-thinking">Critical Thinking</a></li>
+
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="col">
+                  <ul>
+                    <li>
+                      <a href="#section-solution">Solution</a>
+                      <ul>
+                        <li><a href="#section-competitive-analysis">Competitive Analysis</a></li>
+                        <li><a href="#section-non-func">Non-Functional Requirements</a></li>
+                        <li><a href="#section-wireframing">Wireframing</a></li>
+                        <li><a href="#section-hi-fi">High-Fidelity Mockup</a></li>
+                        <li><a href="#section-important-components">Important Components</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#website-view">Final Design</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="clear"></div>
+      <hr/>
+      <div id="section-overview" class="page-section centerize">
+        <h2>Overview</h2>
+      </div>
 
       <div class="col-5">
         <div class="col">
@@ -70,7 +116,7 @@
       </div>
 
       <hr/>
-      <div class="page-section centerize">
+      <div id="section-project" class="page-section centerize">
         <h2>The Project</h2>
       </div>
       <div class="centerize">
@@ -80,7 +126,7 @@
       <img class="none" style="width:80%;margin:auto; display:block;" src="<?php bloginfo('template_url'); ?>/assets/images/projects/soe/idea-old.png" />
 
       <hr/>
-      <div class="page-section centerize">
+      <div id="section-research" class="page-section centerize">
         <h2>Research</h2>
       </div>
       <div class="centerize">
@@ -140,7 +186,7 @@
         </div>
       </div>
 
-      <div class="centerize">
+      <div id="section-competitive-analysis" class="centerize">
         <h3><strong>Competitive Analysis</strong></h3>
         <p>In an effort to further understand the nature of voice-recognition devices, our team conducted a competitive analysis on existing devices that harness that same kind of functionality as their core.</p>
       </div>
@@ -163,7 +209,7 @@
         </div>
       </div>
 
-      <div class="centerize">
+      <div id="section-issues" class="centerize">
         <h2 class="text-issue"><strong>Issues Discovered</strong></h2>
       </div>
 
@@ -196,7 +242,7 @@
         </div>
       </div>
 
-      <div class="centerize">
+      <div id="section-what-went-wrong" class="centerize">
         <h2><strong>What Went Wrong?</strong></h2>
         <h3>The problem came from <strong>how we framed our research</strong>.</h3>
         <br/>
@@ -206,7 +252,7 @@
       </div>
 
       <hr/>
-      <div class="page-section centerize">
+      <div id="section-critical-thinking" class="page-section centerize">
         <h2>Critical Thinking</h2>
       </div>
       <div class="centerize" style="margin-bottom:45px;">
@@ -269,7 +315,7 @@
       </div>
 
       <hr/>
-      <div class="page-section centerize">
+      <div id="section-solution" class="page-section centerize">
         <h2>Solution</h2>
       </div>
       <div class="centerize">
@@ -285,7 +331,7 @@
       <img class="none" src="<?php bloginfo('template_url'); ?>/assets/images/projects/soe/idea-new.png" />
 
 
-      <div class="centerize">
+      <div id="section-non-func" class="centerize">
         <h2><strong>Non-Functional Requirements</strong></h2>
       </div>
 
@@ -354,7 +400,7 @@
         </div>
       </div>
 
-      <div class="centerize">
+      <div id="section-wireframing" class="centerize">
         <h2><strong>Wireframing</strong></h2>
         <p>
           Our team created wireframes to help us determine what visual components are needed and where in the interface they would excel in performance, build the aesthetic foundations, and contribute to the usability of the system.
@@ -363,13 +409,13 @@
       </div>
       <img class="none" style="display:block; margin:auto auto 45px auto;" src="<?php bloginfo('template_url'); ?>/assets/images/projects/soe/wireframe.png" />
 
-      <div class="centerize">
+      <div id="section-hi-fi" class="centerize">
         <h2><strong>High-Fidelity Mockup</strong></h2>
         <p>Our team went through several design iterations to come up with a variety of UI design alternatives to choose from throughout the process.</p>
       </div>
       <img class="none" style="display:block; margin:auto auto 45px auto;" src="<?php bloginfo('template_url'); ?>/assets/images/projects/soe/hi-fi.png" />
 
-      <div class="centerize">
+      <div id="section-important-components" class="centerize">
         <h3>Important Components that <strong style="margin:8px 0 20px 0;display:block; clear:both;font-size:1.75em;">Made All The Difference</strong></h3>
       </div>
       <div class="solution">

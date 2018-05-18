@@ -21,7 +21,28 @@
         </div>
         <div class="col-6">
           <div class="col">
-            <h2 class="page-headline">Re-skinning a custom template to match client branding</h2>
+            <h2 class="page-headline">Re-skinning a custom template design to match client branding</h2>
+            <p>This project is focused on redesigning a custom template design to match an established company brand.</p>
+
+            <div class="col"></div>
+            <h3>Table of Contents</h3>
+            <ul id="table-of-contents">
+              <li><a href="#section-context">Context</a></li>
+              <li>
+                <a href="#section-project">The Project</a>
+                <ul>
+                  <li><a href="#section-goal">The Goal</a></li>
+                  <li><a href="#section-results">The Results</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#section-solution">Redesign Solution</a>
+                <ul>
+                  <li><a href="#key-improvements">Key Fixes & Improvements</a></li>
+                </ul>
+              </li>
+              <li><a href="#website-view">Final Design</a></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -29,7 +50,7 @@
       <div class="clear"></div>
 
       <hr/>
-      <div class="page-section centerize">
+      <div id="section-context" class="page-section centerize">
         <h2>Context</h2>
       </div>
       <div class="centerize">
@@ -41,7 +62,7 @@
       <img class="none" src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/demo-template.png" />
 
       <hr/>
-      <div class="page-section centerize">
+      <div id="section-project" class="page-section centerize">
         <h2>The Project</h2>
       </div>
       <div class="centerize">
@@ -49,7 +70,7 @@
         <p>Our first client for this service, The Laguna Woods Civic Support Fund, is a nonprofit public benefit corporation established to raise and distribute funds to support programs, projects, and services of the City.</p>
       </div>
 
-      <div class="centerize">
+      <div id="section-goal" class="centerize">
         <h2><strong>The Goal</strong></h2>
         <p>My job was to use the custom template design as a skeleton for designing Laguna Wood’s Civic Support Fund website. The idea is for me to re-skin the custom template design to fit our clients’ branding.</p>
       </div>
@@ -58,8 +79,14 @@
         <p>Our client wanted a fresh and simple website that stays true to their existing brand, with rich imagery and elegant layouts similar to the custom design we’ve provided.</p>
       </div>
 
+      <div id="section-results" class="centerize">
+        <h2><strong>The Results</strong></h2>
+        <p>Below is an overview of the custom template design with the applied branding.</p>
+      </div>
+      <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/new-template.png" />
+
       <hr/>
-      <div class="page-section centerize">
+      <div id="section-solution" class="page-section centerize">
         <h2>Redesign Solution</h2>
       </div>
       <div class="centerize">
@@ -67,23 +94,92 @@
         <p>Below is a side-by-side visual comparison between the custom template design of our company and the new design for Laguna Wood’s donation-based website.</p>
       </div>
 
-      <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/home.png" />
-      <div class="col"></div>
-      <img src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/donation.png" />
-
-      <div class="col"></div>
-      <div class="centerize">
-        <h3><strong style="margin:8px 0 20px 0;display:block; clear:both;font-size:1.75em;">Key Fixes & Improvements</strong></h3>
+      <div>
+        <div class="col-6">
+          <div class="col">
+            <h3>OLD DESIGN</h3>
+            <div class="img-fixed-height">
+              <img class="none" src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/custom-home.png" />
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="col">
+            <h3><strong>NEW DESIGN</strong></h3>
+            <div class="img-fixed-height">
+              <img class="none" src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/home.png" />
+            </div>
+          </div>
+        </div>
       </div>
 
-      <h2 style="font-weight: 300;font-size:  2em;">HOMEPAGE</h2>
-      <img class="none" src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/analysis-homepage.png" />
+      <div>
+        <div class="col-6">
+          <div class="col">
+            <h3>OLD DESIGN</h3>
+            <div class="img-fixed-height">
+              <img class="none" src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/custom-campaigns.png" />
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="col">
+            <h3><strong>NEW DESIGN</strong></h3>
+            <div class="img-fixed-height">
+              <img class="none" src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/campaigns.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="col-6">
+          <div class="col">
+            <h3>OLD DESIGN</h3>
+            <div class="img-fixed-height">
+              <img class="none" src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/custom-donation.png" />
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="col">
+            <h3><strong>NEW DESIGN</strong></h3>
+            <div class="img-fixed-height">
+              <img class="none" src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/donation.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="col"></div>
-      <h2 style="font-weight: 300;font-size:  2em;">DONATION PAGE</h2>
-      <img class="none" src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/analysis-donation.png" />
-      <div class="col"></div>
-      <h2 style="font-weight: 300;font-size:  2em;">FORM POP-UP</h2>
-      <img class="none" src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/analysis-form.png" />
+
+      <style>
+        #key-improvements h3{
+          font-weight: 300;
+          font-size: 1em;
+          padding: 10px;
+          margin-bottom: 10px;
+          box-sizing: border-box;
+          background: #333;
+          color: #fff;
+          text-align: center;
+          letter-spacing: 2px;
+        }
+      </style>
+      <div id="key-improvements">
+        <div class="centerize">
+          <h2><strong style="margin:8px 0 40px 0;display:block; clear:both;font-size:1.25em;">Key Fixes & Improvements</strong></h2>
+        </div>
+
+        <h3>HOMEPAGE</h3>
+        <img class="none" src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/analysis-homepage.png" />
+        <div class="col"></div>
+        <h3>DONATION PAGE</h3>
+        <img class="none" src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/analysis-donation.png" />
+        <div class="col"></div>
+        <h3>FORM POP-UP</h3>
+        <img class="none" src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/analysis-form.png" />
+      </div>
 
 
       <div id="website-view">
