@@ -175,9 +175,9 @@ h1.page-title{
 
 /* Header */
 header{
-  padding: 45px 0 45px 0;
+  padding: 45px 0 55px 0;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   background-image: url('../images/bg-header-blue.png');
   background-position: 50% 100%;
   background-size: cover;
@@ -188,28 +188,27 @@ header:hover{
   transition-duration: 0.25s;
 }
 header a{
-  color: white!important;
-  font-weight: 300;
+  color: #333!important;
+  font-weight: 400;
 }
 p.contact-info{
-  opacity: .5
+  opacity: .75;
 }
-
 span.site-subtitle{
   text-align: center;
   display: block;
   font-size: 1.25em;
   font-weight: 300;
   margin: 0 0 15px 0;
-  color: white;
+  color: #333;
 }
 .dot{
   font-weight: 100;
   margin: 0 10px;
   font-size: 1.25em;
   vertical-align: bottom;
-  color: white;
-  opacity: .5;
+  color: #333;
+  opacity: .75;
 }
 
 /* Logo */
