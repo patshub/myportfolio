@@ -4,10 +4,10 @@
 }
 html { overflow-y: scroll; }
 body{
-    font-family: 'Lato', 'Open Sans';
+    font-family: 'Palanquin', 'Open Sans';
     font-size: 17px;
     line-height: 150%;
-    color: #333;
+    color: #000;
 }
 .clear{clear: both;}
 br{
@@ -141,7 +141,7 @@ ul.menu li ul li a{
   padding: 10px;
   box-sizing: border-box;
   display: block;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #000;
 }
 
 ul.breadcrumbs{
@@ -152,7 +152,7 @@ ul.breadcrumbs li{
   margin:0;
 }
 ul.breadcrumbs li a{
-  color: #333;
+  color: #000;
 }
 ul.breadcrumbs li:after{
   font-family: FontAwesome;
@@ -281,7 +281,7 @@ legend{
 }
 fieldset{
   padding: 20px;
-  border: 2px solid #333;
+  border: 2px solid #000;
 }
 
 /************** TABLES **************/
@@ -302,6 +302,6 @@ th,td{
 }
 
 th{
-  background: #333;
+  background: #000;
   color: white;
 }
